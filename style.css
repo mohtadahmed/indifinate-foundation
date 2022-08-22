@@ -3,6 +3,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 /* Header Section CSS */
 .header-container {
     background-image: url(/img/donation13.jpg);
@@ -18,10 +22,6 @@ body {
     color: white;
 }
 
-.header-content h1 {
-    font-size: 50px;
-}
-
 .header-content p {
     margin: 50px 10px;
 }
@@ -32,7 +32,54 @@ body {
     font-weight: bold;
     color: white;
     padding: 15px 30px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /* Header Section CSS */
+
+/* Donation Part CSS */
+.donation-container {
+    text-align: center;
+    margin: auto;
+}
+
+.donation-part {
+    padding: 150px;
+    width: 70%;
+    margin: auto;
+}
+
+.donation-part div {
+    margin: 70px 10px;
+}
+
+.box-content span {
+    padding: 30px;
+    margin: 10px;
+    background-color: #FAFAFA;
+    color: #707070;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#bold-color {
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.block-content input {
+    display: block;
+    margin: 40px auto;
+    border: none;
+    border-bottom: 1px solid #7070708e;
+    padding: 10px 200px;
+}
+
+.block-content input::placeholder {
+    font-size: 18px;
+    color: #707070;
+}
+
+/* Donation Part CSS */
