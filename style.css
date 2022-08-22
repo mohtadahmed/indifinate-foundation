@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Header Section CSS */
+.header-container {
+    background-image: url(/img/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content {
+    margin: auto;
+    text-align: center;
+    padding: 180px;
+    color: white;
+}
+
+.header-content h1 {
+    font-size: 50px;
+}
+
+.header-content p {
+    margin: 50px 10px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    font-weight: bold;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+/* Header Section CSS */
