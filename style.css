@@ -208,3 +208,19 @@ h1 {
 }
 
 /* Get Update CSS */
+
+/* Footer Section CSS */
+footer {
+    background-color: #303952;
+    color: wheat;
+    padding: 30px;
+    text-align: center;
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    color: #2ed573;
+}
+
+/* Footer Section CSS */
