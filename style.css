@@ -96,6 +96,7 @@ body {
 
 .donation-catagory {
     display: flex;
+    margin-bottom: 60px;
 }
 
 .donation-card {
@@ -115,7 +116,6 @@ body {
 }
 
 #color-pink {
-    /* background-color: #ff595923; */
     background-color: #FFEEEE;
 
 }
@@ -125,3 +125,40 @@ body {
 }
 
 /* Donation Plan CSS */
+
+
+/* Social Events CSS */
+.social-event-container {
+
+    background-color: #303952;
+}
+
+.social-event-catagory {
+    display: flex;
+    margin: 20px 10px;
+    border: 1px solid #2ed573;
+}
+
+.social-event {
+    width: 60%;
+    padding: 50px 10px;
+    margin: auto;
+    text-align: center;
+    color: #2ed573;
+}
+
+.social-event-card {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.event-details {
+    margin-bottom: 30px;
+}
+
+.event-details span {
+    margin-right: 30px;
+    color: #cf6a87;
+}
+
+/* Social Events CSS */
