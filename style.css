@@ -3,7 +3,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-h1 {
+.title {
     font-size: 50px;
 }
 
@@ -83,3 +83,45 @@ h1 {
 }
 
 /* Donation Part CSS */
+
+/* Donation Plan CSS */
+.donation-plan-container {
+    width: 80%;
+    margin: auto;
+}
+
+.donation-plan {
+    text-align: center;
+}
+
+.donation-catagory {
+    display: flex;
+}
+
+.donation-card {
+    /* background-color: #4f9da657; */
+    background-color: rgba(70, 131, 180, 0.2);
+    padding: 25px 20px;
+    margin: 20px;
+}
+
+.donation-card p {
+    color: #707070;
+    text-align: justify;
+}
+
+.donation-card img {
+    text-align: left;
+}
+
+#color-pink {
+    /* background-color: #ff595923; */
+    background-color: #FFEEEE;
+
+}
+
+#color-bisk {
+    background-color: #FFF4D6;
+}
+
+/* Donation Plan CSS */
